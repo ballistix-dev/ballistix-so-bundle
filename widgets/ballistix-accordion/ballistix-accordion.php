@@ -90,17 +90,6 @@ class BALLISTIX_ACCORDION_WIDGET extends SiteOrigin_Widget {
             )
         );
 
-        $this->register_frontend_styles(
-            array(
-                array(
-                    'ballistix-accordion-widget',
-                    plugin_dir_url(__FILE__) . 'styles/styles.css',
-                    array( ),
-                    '0.0.2',
-                )
-            )
-        );
-
     }
     function get_template_name($instance) {
         return 'base';
